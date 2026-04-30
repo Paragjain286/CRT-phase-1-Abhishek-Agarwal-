@@ -66,3 +66,25 @@ int main(){
     cout << a << "\n" << b << endl;
     return 0;
 }
+
+
+//Problem 5
+// Login credentials
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int userId = 2866;
+    int userPassword = 286;
+    
+    int InputId;
+    int InputPassword;
+    cin>> InputId >> InputPassword;
+    
+    bool isGranted = (userId == InputId) && (InputPassword == userPassword);
+    cout << "Access Granted" << isGranted <<endl;
+    cout << "Access Denied" << !isGranted <<endl;
+    
+    return 0;
+}
