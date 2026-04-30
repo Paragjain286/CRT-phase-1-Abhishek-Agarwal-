@@ -47,3 +47,22 @@ int main(){
     cout<<isEqu<<endl;
     return 0;
 }
+
+
+//Problem 4
+//Swapping of two variable
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a, b;
+    cin>> a >> b;
+    // Logic to swap variable value
+    int temp = a;
+    a = b;
+    b = temp;
+    // Printing the value
+    cout << a << "\n" << b << endl;
+    return 0;
+}
