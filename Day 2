@@ -192,7 +192,7 @@ int main(){
     }
 }
 
-
+**************HOMEWORK QUESTIONS********************
 // Grade calculation
 
 #include<iostream>
@@ -235,5 +235,23 @@ int main(){
         cout << "Leap year";
     }else{
         cout << "Not leap year";
+    }
+}
+
+
+// Even or odd 
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int no;
+    cout << "Enter number...";
+    cin >> no;
+    
+    if(no %2==0){
+        cout << "even";
+    }else{
+        cout << "odd";
     }
 }
