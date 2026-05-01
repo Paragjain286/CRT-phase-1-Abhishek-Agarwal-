@@ -164,3 +164,30 @@ int main(){
     cout << "Please Enter a valid no...";
     }
 }
+
+
+//Problem 7
+//DayOrNight using nested if-else Statement
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    string DayOrNight;
+    bool MotionDetected;
+    
+    cout << "Is it Day or Night ? ";
+    cin >> DayOrNight;
+    cout << "Is motion detected ? ";
+    cin >> MotionDetected;
+    
+    if(DayOrNight == "Night" || DayOrNight == "night"){
+        if(MotionDetected){
+            cout<<"Turn ON LED to 100% brigthness";
+        } else{
+            cout<<"Turn ON LED to 10% brigthness";
+        }
+    } else {
+        cout<<"Turn OFF LED light";
+    }
+}
