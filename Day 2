@@ -130,8 +130,8 @@ int main(){
 }
 
 
-Problem 6
-IVRsystem
+//Problem 6
+//IVRsystem
 
 #include<iostream>
 using namespace std;
