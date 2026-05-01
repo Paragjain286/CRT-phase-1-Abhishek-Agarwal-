@@ -62,7 +62,7 @@ int main(){
 
 
 //Problem 4
-//ternatory operator
+//ternary operator
 
 #include<iostream>
 using namespace std;
@@ -74,7 +74,7 @@ int main(){
     cin >> a;
     cout << "Enter 2nd no.";
     cin >> b;
-    //Logic of ternatory operator
+    //Logic of ternary operator
     max_number = (a > b) ? a : b;
     cout << max_number;
     
