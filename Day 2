@@ -193,6 +193,9 @@ int main(){
 }
 
 **************HOMEWORK QUESTIONS********************
+
+
+-------QUESTION 1-------
 // Grade calculation
 
 #include<iostream>
@@ -221,6 +224,7 @@ int main(){
 }
 
 
+------QUESTION 2------
 // Leap year check 
 
 #include<iostream>
@@ -238,7 +242,7 @@ int main(){
     }
 }
 
-
+------QUESTION 3------
 // Even or odd 
 
 #include<iostream>
@@ -255,3 +259,25 @@ int main(){
         cout << "odd";
     }
 }
+
+
+-------QUESTION 4-------
+
+//ATM Withdraw Validator
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int amount, balance=10000;
+    
+    cout<<"Enter amount...";
+    cin>>amount;
+    
+    if(amount<=balance){
+        cout<<"Withdraw successfully";
+    }else{
+        cout<<"Insufficient balance";
+    }
+}
+
