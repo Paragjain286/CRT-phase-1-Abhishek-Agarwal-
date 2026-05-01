@@ -59,3 +59,24 @@ int main(){
     }
     return 0;
 }
+
+
+//Problem 4
+//ternatory operator
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a, b;
+    int max_number;
+    cout << "Enter 1st no.";
+    cin >> a;
+    cout << "Enter 2nd no.";
+    cin >> b;
+    //Logic of ternatory operator
+    max_number = (a > b) ? a : b;
+    cout << max_number;
+    
+    return 0;
+}
