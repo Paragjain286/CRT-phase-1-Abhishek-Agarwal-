@@ -108,3 +108,25 @@ int main(){
     
     return 0;
 }
+
+
+//Problem 7
+//Sum of average of three number
+
+#include<iostream>
+using namespace std;
+
+int main(){
+int a,b,c,sum;
+float avg;
+
+cin >> a >> b >> c;
+
+sum = a+b+c;
+avg = sum/3.0;
+
+cout<< "sum =" << sum <<endl;
+cout<< "avg =" << avg <<endl;
+
+return 0;
+}
