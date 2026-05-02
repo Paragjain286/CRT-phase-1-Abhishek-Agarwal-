@@ -89,4 +89,42 @@ int main(){
 }
 
 
+// Problem 7
+// Print PRIME NUMNBER CHECKER using FOR loop
 
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cout << "Enter no...";
+    cin >> n;
+    
+    for(int i = 2; i<n; i++){
+        if(n % i == 0){
+            cout << "IT is not Prime no.";
+            break;
+        }else{
+            cout<<"Prime no...";
+            break;
+        }
+    }
+}
+
+
+// Problem 8
+// Smart phone unlock unsing DO-WHILE loop
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int password;
+    
+    do{
+        cout << "Enter your PASSWORD here....";
+        cin >> password;
+    }while(password != 2003);
+    
+    cout << "PASSWORD unlock.... ";
+}
