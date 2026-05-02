@@ -53,3 +53,24 @@ int main(){
         i += 2;
     }
 }
+
+
+// Problem 5
+// Print 1 to 10 using DO-WHILE loop
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int i = 1;
+    do{
+        cout<< i <<" ";
+        i++;
+    }while(i<=10);
+}
+
+
+
+
+
+
