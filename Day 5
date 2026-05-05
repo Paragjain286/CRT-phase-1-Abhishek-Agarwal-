@@ -22,3 +22,98 @@ int main(){
             cout<<"\n";
         }
 }
+
+
+//Problem 2
+// Function Making practice
+
+// #include<iostream>
+// using namespace std;
+
+// void printMessage(){
+//     cout << "Hi we are learning Functions...";
+// }
+
+// int main(){
+//     printMessage();
+//     return 0;
+// }
+
+
+//Problem 3
+// Function with some values and some return values
+
+// #include<iostream>
+// using namespace std;
+
+// int calculateArea(int length, int width){
+//     return length * width;
+// }
+// int main(){
+//     int a = 10;
+//     int b = 5;
+//     int area = calculateArea(a,b);
+//     cout << area;
+// }
+
+
+//Problem 4
+// Types of Function 
+// Program 4.1 --> No argument, No return values
+
+// #include<iostream>
+// using namespace std;
+
+// void BellRing(){
+//     cout <<"Ting Tong...";
+// }
+
+// int main(){
+//     BellRing();
+// }
+
+
+//Problem 4
+// Types of Function 
+// Program 4.2 --> Argument, No return values
+
+// #include<iostream>
+// using namespace std;
+
+// void sendMessage(string message){
+//     cout << message;
+// }
+
+// int main(){
+//     sendMessage("BJP wons");
+// }
+
+
+//Problem 4
+// Types of Function 
+// Program 4.3 --> No Argument, Return values
+
+// #include<iostream>
+// using namespace std;
+
+// int ticketNumber(){
+//     return 101;
+// }
+// int main(){
+//   cout << ticketNumber();
+// }
+
+
+//Problem 4
+// Types of Function 
+// Program 4.4 --> Argument, Return values
+
+// #include<iostream>
+// using namespace std;
+
+// float moneyConversion(float amount){
+//     return amount / 95.25;
+// }
+// int main(){
+//     cout << moneyConversion(1000);
+// }
