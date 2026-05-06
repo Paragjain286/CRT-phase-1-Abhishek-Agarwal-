@@ -1,0 +1,13 @@
+// Problem 1
+// coffee billing system
+
+#include<iostream>
+using namespace std;
+
+    int TotalAmount(int coffee){
+        return coffee*30;
+    }
+
+int main(){
+    cout << TotalAmount(50);
+}
