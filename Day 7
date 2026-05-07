@@ -154,7 +154,7 @@
         
 //     }
 //     void area(){
-//         cout << length * width;
+//         cout << length * width << "\n" ;
 //     }
 // };
 
